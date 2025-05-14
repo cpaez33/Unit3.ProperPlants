@@ -1,7 +1,7 @@
 import "./Plants.css";
 import Plant from "./Plant";
 
-function Plants({ plants, cartItems, addToCart }) {
+function Plants({ plants, addToCart }) {
   // console.log(cartItems);
 
   return (
