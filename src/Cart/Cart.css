@@ -1,0 +1,22 @@
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25ch;
+  padding: 0.25rem;
+}
+
+.cart-quantity-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-quantity-box button {
+  width: 80px;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+
+.cart-quantity-box button:hover {
+  background-color: oklch(87.2% 0.01 258.338);
+  cursor: pointer;
+}

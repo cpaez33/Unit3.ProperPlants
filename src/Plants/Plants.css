@@ -1,0 +1,31 @@
+li {
+  list-style: none;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+  gap: 1ch;
+}
+
+.plant-item {
+  display: grid;
+  padding: 1rem;
+  gap: 1ch;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.plant-item button {
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+
+.plant-item button:hover {
+  background-color: oklch(87.2% 0.01 258.338);
+  cursor: pointer;
+}
+.plant-item figure {
+  font-size: 5rem;
+  text-align: center;
+}
